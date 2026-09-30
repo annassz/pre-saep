@@ -1,4 +1,4 @@
-const { Sequize } = require('sequilize');
+const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
 const sequilize = new Sequelize(
@@ -13,3 +13,4 @@ const sequilize = new Sequelize(
     }
 );
   
+module.exports = sequilize
